@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#input_container").click(function(event){
+	$("#submit").click(function(event){
 	    event.preventDefault();
 	    var input = $("#input_field").val();
         var inputlength = $("#input_field").val().length;
@@ -7,11 +7,12 @@ $(document).ready(function() {
 		$("#fears_list").append("<input type='checkbox' class='checkbox' name='checkbox' value='value'><label><span></span>"+input+"</label>");
 		}
 		else {
+			alert("Do you fear nothing? Type something before submitting!")
 		}
-		$("label").on("click", "span", function(event){
-	   	    $(this).toggleClass("checked_box");
-	   	    $(this).parent().toggleClass("checked_text");
-        })
-
-   	});
+   	})
+	    $("span").click(function(){
+	    $(this).toggleClass("checked_box");
+	    $(this).parent().toggleClass("checked_text");
+	    console.log("hi");
+    });
 });

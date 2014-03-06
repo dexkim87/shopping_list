@@ -171,7 +171,7 @@ label {display:inline-block; cursor:pointer; position:relative; margin-right:15p
 
 #task_list_container {position:relative; width:906px; height:432px; margin: 50px auto 0 auto;}
 #task_list_container h2 {color:#fff; background:#049495; display:inline-block; width:100%; margin: 25px 0px; padding: 14px 0; text-align: center;}
-#task_list_container form {background:#fff; max-width:517px; min-height:427px; margin:0 auto;}
+#task_list_container #task_list_wrapper {background:#fff; max-width:517px; min-height:427px; margin:0 auto;}
 
 #monster_1 {background:url('../img/monster_1.png') no-repeat 0 0; width:382px; height:317px; position:absolute; bottom: 0px; left: 28px; z-index: -1;}
 #monster_2 {background:url('../img/monster_2.png') no-repeat 0 0; width:223px; height:134px; position:absolute; bottom: -32px; left: 37px;}
